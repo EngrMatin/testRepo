@@ -1,0 +1,42 @@
+h1
+{
+     color: rgb(255, 102, 0);
+     background-color: rgb(160, 240, 135);
+     height: 50px;
+     width: 50%;
+     text-align: center;
+}  
+                   
+p
+{
+     color: hsl(110, 93%, 48%);
+     font-size: 20px;
+     font-weight: 500;   
+     font-family: Calibri, 'Courier New', Courier, monospace;
+     text-align: justify;
+}                 
+                    
+img
+{
+     width: 50%;
+}
+
+.country
+{
+     color: rgb(250, 7, 7);
+     font-size: larger;
+     font-weight: 900;
+}
+
+.blog
+{
+     background-color: aqua;
+     width:40%;
+     height: 200px;
+     border: 8px solid red;
+     border-radius: 30px;
+     margin: 10px 20px 10px 20px;
+     padding: 10px 20px 10px 20px;
+     //float: left;
+     display : inline-block;
+}
