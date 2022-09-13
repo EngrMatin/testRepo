@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+</head>
+    <style>
+        .container
+        {
+            background-color: aqua;
+        }
+
+        div
+        {
+            height:100px;
+            width: 100px;
+        }
+
+        #first
+        {
+            background-color: lightblue;
+        }
+
+        #second
+        {
+            background-color: lightgreen;
+            position:relative;
+            left: 20px;
+            top: 20px;
+        }
+
+        #third
+        {
+            background-color: lightpink;
+            position:absolute;
+            left: 50px;
+        }
+
+        #fourth
+        {
+            background-color:rgb(55, 14, 240);
+            //position:fixed;
+        }
+
+        #fifth
+        {
+            background-color: rgb(218, 218, 68);
+        }
+
+
+    </style>
+<body>
+    <section>
+        <h1>Learning and Climbing Position High</h1>
+    </section>
+    <section class="container">
+        <div id="first"></div>
+        <div id="second"></div>
+        <div id="third"></div>
+        <div id="fourth"></div>
+        <div id="fifth"></div>
+    </section>
+</body>
+</html>
