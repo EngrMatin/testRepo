@@ -1,0 +1,80 @@
+    h1
+    {
+        color: goldenrod;
+        
+
+    }
+
+    .special:hover
+    {
+        color: Indianred;
+        font-size: 60px;
+        font-family: monotype corsiva;
+        background-color: rgb(207, 174, 238);   
+    }
+
+    input:focus
+    {
+        font-size: 20px;
+        font-weight: 700;
+        color: green;
+    }
+
+    li:last-child
+    {
+        font-size: 20px;
+        font-family: monotype corsiva;
+        font-weight: 700;
+        color: green;
+    }
+
+    li:nth-child(2n+1)
+    {
+        font-size: 20px;
+        font-family: monotype corsiva;
+        font-weight: 700;
+        color: red;
+    }
+
+    a:visited
+    {
+        color: green;
+    }
+
+    h1::before
+    {
+        content: "Hi! ";
+        color: red;
+        font-size: 20px;
+        background-color: aquamarine;
+    }
+
+    .special::after
+    {
+        content: " Hello";
+        color: red;
+        font-size: 20px;
+        background-color: aquamarine;
+    }
+
+    body
+    {
+        counter-reset: section;
+    }
+
+    li::before
+    {
+        counter-increment: section;
+        content: "Crush" counter(section) " : ";
+        color: blueviolet;
+        font-size: 15px;
+    }
+
+    li::after
+    {
+        content: " ❤️";
+        color: blueviolet;
+        font-size: 15px;
+    }
+
+    
